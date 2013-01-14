@@ -1,0 +1,20 @@
+{
+  "name": "primo-timer",
+  "version": "0.0.0",
+  "description": "A timer class for keeping a consistent logical frame-rate in JS based games",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robashton/primo-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "html5",
+    "gaming"
+  ],
+  "author": "Rob Ashton",
+  "license": "MIT"
+}
