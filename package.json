@@ -16,5 +16,8 @@
     "gaming"
   ],
   "author": "Rob Ashton",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.4.3"
+  }
 }
