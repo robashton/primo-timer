@@ -29,6 +29,9 @@ Timer.prototype = {
       ticks: this.ticks + Math.floor((ms / this.idealTimePerFrame))
     })
   },
+  clearSchedule: function() {
+    this.scheduled.length = 0
+  },
   fireAnyScheduledEvents: function() {
     var remaining = []
     for(var i =0 ; i < this.scheduled.length; i++) {
